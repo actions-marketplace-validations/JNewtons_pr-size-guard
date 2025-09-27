@@ -6,7 +6,7 @@ branding:
   color: blue
 runs:
   using: node20
-  main: index.js
+  main: dist/index.js
 inputs:
   max_lines:
     description: Maximum total changed lines allowed in a PR
