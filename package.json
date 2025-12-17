@@ -8,7 +8,7 @@
   "scripts": {
     "format": "npx prettier -w .",
     "lint": "node -e \"process.exit(0)\"",
-    "test": "node tests/local-sim.js || true"
+    "test": "node tests/local-sim.js"
   },
   "dependencies": {
     "@actions/core": "^1.11.1",
